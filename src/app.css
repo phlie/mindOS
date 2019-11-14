@@ -1,0 +1,28 @@
+/* Colors:
+Pink: #D9002F
+Orange: #E07E48
+Green: #89DB8A
+Blue: #6D53DB
+Red: #E25A47
+*/
+.main-content {
+    -fx-background-color: rgba(137,219,138,0.2);
+    -fx-background-radius: 75;
+    -fx-text-fill: #000fff;
+}
+
+.time {
+    -fx-text-fill: #6D53DB;
+}
+
+AnchorPane {
+    -fx-background-color: #000000;
+    -fx-background-image: url("background.png");
+    -fx-background-size: cover;
+}
+
+Label {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-text-fill: #E25A47;
+}
